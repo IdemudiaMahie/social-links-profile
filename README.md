@@ -27,10 +27,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/mahieMobileViewSceenshot.PNG)
-The above links to a mobile view solution for the project.
+- The above links to a mobile view solution for the project.
 
 ![](./assets/images/mahieDesktopViewSceenshot.PNG)
-The above links to a desktop view solution for the project.
+- The above links to a desktop view solution for the project.
 
 
 ## My process
