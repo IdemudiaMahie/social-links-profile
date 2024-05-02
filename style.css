@@ -1,0 +1,89 @@
+@font-face {
+    font-family: mahieInterFont;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Green: hsl(75, 94%, 57%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Off-Black);
+    color: var(--White);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: mahieInterFont;
+}
+
+.container {
+    background-color: var(--Dark-Grey);
+    height: 600px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.location {
+    color: var(--Green);
+
+}
+
+.description {
+    font-size: 0.85rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: var(--Grey);
+    color: var(--White);
+    padding: 1rem 0;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button:focus,
+button:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    cursor: pointer;
+    font-weight: 800;
+    transition: all .9s .3s;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 350px;
+        height: 630px;
+        padding: 2rem;
+    }
+}
